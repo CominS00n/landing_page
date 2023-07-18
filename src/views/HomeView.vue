@@ -7,7 +7,7 @@
         <b class="uppercase text-4xl text-blue-900">sitthichai</b>
         <b class="uppercase text-4xl text-blue-900">puckpoo</b>
         <p class="mt-5 text-blue-900">
-          
+          นายสิทธิชัย พักโพธิ์ (ป๊อป) มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี คณะวิทยาศาสตร์และเทคโนโลยี สาขาเทคโนโลยีสารสนเทศ
         </p>
         <button
           type="button"
