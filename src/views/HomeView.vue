@@ -1,7 +1,7 @@
 <template>
   <header class="bg-while h-auto mb-5">
     <div
-      class="container max-w-screen-lg mx-auto flex justify-between items-center max-md:flex-col-reverse"
+      class="max-w-screen-lg mx-auto flex justify-between items-center max-md:flex-col-reverse"
     >
       <div class="flex flex-col w-1/2 max-sm:my-5">
         <b class="uppercase text-4xl text-blue-900">sitthichai</b>

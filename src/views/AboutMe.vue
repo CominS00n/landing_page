@@ -1,3 +1,4 @@
 <template>
-    <div>test</div>
+    <div 
+    class="max-w-screen-lg mx-auto flex items-center">test</div>
 </template>
