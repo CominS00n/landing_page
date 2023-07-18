@@ -1,12 +1,13 @@
 <template>
-  <header class="bg-while h-96">
-    <div class="container max-w-screen-lg mx-auto flex justify-between items-center h-fit">
-      <div class="flex flex-col w-1/2">
+  <header class="bg-while h-auto mb-5">
+    <div
+      class="container max-w-screen-lg mx-auto flex justify-between items-center max-md:flex-col-reverse"
+    >
+      <div class="flex flex-col w-1/2 max-sm:my-5">
         <b class="uppercase text-4xl text-blue-900">sitthichai</b>
         <b class="uppercase text-4xl text-blue-900">puckpoo</b>
         <p class="mt-5 text-blue-900">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus saepe voluptate
-          laborum dolorum nemo impedit neque assumenda doloribus illo soluta?
+          
         </p>
         <button
           type="button"
@@ -28,7 +29,7 @@ import IconNavbar from '@/components/Iconbar/IconNavbar.vue'
 export default {
   name: 'HomeView',
   components: {
-    IconNavbar,
+    IconNavbar
   }
 }
 </script>

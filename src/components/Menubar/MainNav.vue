@@ -1,13 +1,15 @@
 <template>
   <nav class="pt-5 bg-white border-b shadow-md h-20 mb-5">
-    <div class="container max-w-screen-lg mx-auto flex justify-between">
-      <div class="flex items-center">
-        <h1 class="mr-14 text-xl text-blue-900"><b>ComingS00n</b></h1>
+    <div
+      class="max-w-screen-lg mx-auto flex justify-between max-md:mx-5 max-sm:mx-5"
+    >
+      <div class="flex items-center max-sm:flex-col max-sm:items-start">
+        <h1 class="mr-14 text-xl text-blue-900 max-sm:mr-0"><b>ComingS00n</b></h1>
         <ul class="flex space-x-5">
-          <li v-for="x in menus" :key="x.name" class="text-sm text-blue-900 hover:border-b-2">
+          <li v-for="x in menus" :key="x.name" class="uppercase text-sm text-blue-900 hover:border-b-2">
             <RouterLink :to="x.link">{{ x.name }}</RouterLink>
           </li>
-        </ul>
+        </ul> 
       </div>
       <div>
         <button
@@ -27,16 +29,16 @@ export default {
     return {
       menus: [
         {
-          name: "Home",
-          link: "/"
+          name: 'Home',
+          link: '/'
         },
         {
-          name: "About",
+          name: 'About',
           link: '/aboutMe'
         },
         {
-          name: "Image",
-          link: "/image"
+          name: 'Image',
+          link: '/image'
         }
       ]
     }
