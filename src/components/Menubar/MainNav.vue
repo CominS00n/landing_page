@@ -1,5 +1,5 @@
 <template>
-  <nav class="pt-5 bg-white border-b shadow-md h-20 mb-5">
+  <nav class="w-full pt-5 bg-white border-b shadow-md h-20 mb-5">
     <div
       class="max-w-screen-lg mx-auto flex justify-between max-md:mx-5 max-sm:mx-5"
     >
@@ -38,7 +38,7 @@ export default {
         },
         {
           name: 'Image',
-          link: '/image'
+          link: '/imageView'
         }
       ]
     }
