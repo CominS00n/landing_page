@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-lg mx-auto flex justify-around text-3xl text-center">
+  <div class="max-w-screen-lg mx-auto my-6 flex justify-around text-3xl text-center max-sm:grid max-sm:grid-cols-2 max-sm:justify-items-center max-sm:gap-0">
     <div class="p-4">
       <a href="https://www.facebook.com/sitthichai.puckpoo/">
         <svg

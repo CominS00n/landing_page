@@ -1,16 +1,18 @@
 <template>
-  <main-nav/>
+  <main-nav />
   <router-view />
+  <footer-view />
 </template>
 
 <script lang="ts">
-
 import MainNav from '@/components/Menubar/MainNav.vue'
+import footerView from '@/components/footerView.vue'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     MainNav,
+    footerView
   }
 }
 </script>
