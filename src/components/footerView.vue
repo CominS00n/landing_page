@@ -9,7 +9,7 @@
                 <h3><b>Contact</b></h3>
                 <ul>
                     <li>Call: 0938600860</li>
-                    <li>Facebook: Sitthichai Puckpoo</li>
+                    <li>Facebook:<a href="https://www.facebook.com/">Sitthichai Puckpoo</a></li>
                     <li>Email: spuckpoo@gmail.com</li>
                 </ul>
             </div>

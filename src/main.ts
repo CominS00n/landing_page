@@ -7,6 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 import '@/style.css'
+import '../public/font/fontStyle.css'
 
 const app = createApp(App)
 

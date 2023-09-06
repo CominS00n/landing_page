@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-lg mx-auto grid grid-cols-4 gap-4 max-md:grid-cols-3 max-md:mx-5 max-sm:grid-cols-2">
+  <div class="max-w-screen-lg mx-auto grid grid-cols-4 gap-10 max-md:grid-cols-3 max-md:mx-5 max-sm:grid-cols-2">
     <div><img class="h-auto" src="@/image/imageview/image_01.jpg" alt="##"></div>
     <div><img class="h-auto" src="@/image/imageview/image_02.jpg" alt="##"></div>
     <div><img class="h-auto" src="@/image/imageview/image_03.jpg" alt="##"></div>

@@ -30,8 +30,8 @@
 export default {
   name: 'FirstItem',
   props: {
-    name: null,
-    text: null,
+    name: String,
+    text: String,
   },
 }
 </script>
